@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FuturoBank</title>
+	<link rel="stylesheet" href="css/algemeen.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+	<header>
+		<img src="img/FuturoBank.jpg" alt="Banklogo">
+	</header>
+
+	<nav>
+		<img src="img/gebruiker.jpg" alt="Profiel" class="profile-image">
+	</nav>
+
+	<main>
+		<div class="login-section">
+			<table class="loginForm">
+				<tr>
+					<td>
+						<label for="iban">IBAN-nummer:</label>
+					</td>
+					<td>
+						<input type="text" id="iban" name="iban" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="password">Wachtwoord:</label>
+					</td>
+					<td>
+						<input type="password" id="password" name="password" required>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="button" id="buttonInloggen" class="btn">Inloggen</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</main>
+
+	<footer>
+		<small>&copy; 2024 FuturoBank. All Rights Reserved.</small>
+	</footer>
+	<script src="js/login.js"></script>
+
+</body>
+
+</html>

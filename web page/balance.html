@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FuturoBank - Overschrijvingen</title>
+	<link rel="stylesheet" href="css/algemeen.css">
+	<link rel="stylesheet" href="css/balance.css">
+</head>
+
+<body>
+
+	<header>
+		<img src="img/FuturoBank.jpg" alt="Banklogo" class="">
+	</header>
+
+	<nav>
+		<div class="container">
+			<img src="img/gebruiker.jpg" alt="Profiel" class="profile-image">
+
+			<div id="username" class="user-name">User</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container">
+			<section class="balance-section">
+				<h2>Zichtrekening</h2>
+				<table>
+					<tr>
+						<td>
+							<p>IBAN-nummer:</p>
+						</td>
+						<td>
+							<p id="balanceIban"></p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Balance:</p>
+						</td>
+						<td>
+							<p id="balanceBedrag"></p>
+						</td>
+					</tr>
+				</table>
+				<button onclick="history.back()" type="button" class="cancel-btn">Terug</button>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<p class="footer">
+			<small>&copy; 2024 FuturoBank. All Rights Reserved.</small>
+		</p>
+	</footer>
+	<script src="js/balance.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    width: 300px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FuturoBank - Overschrijvingen</title>
+	<link rel="stylesheet" href="css/algemeen.css">
+	<link rel="stylesheet" href="css/overschrijving.css">
+</head>
+
+<body>
+
+	<header>
+		<img src="img/FuturoBank.jpg" alt="Banklogo" class="">
+	</header>
+
+	<nav>
+		<div class="container">
+			<img src="img/gebruiker.jpg" alt="Profiel" class="profile-image">
+			<div id="username" class="user-name">User</div>
+		</div>
+	</nav>
+
+	<main>
+		<div class="container">
+			<section class="transfer-section">
+				<h2>Overschrijving</h2>
+				<table>
+					<tr>
+						<td><label for="gebruiker">IBAN-nummer:</label></td>
+						<td>
+							<p id="verzenderIban"></p>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="begunstigde">Naam van begunstigde:</label></td>
+						<td><input type="text" id="ontvangerNaam" name="begunstigde" required></td>
+					</tr>
+					<tr>
+						<td><label for="iban">IBAN-nummer ontvanger:</label></td>
+						<td><input type="text" id="ontvangerIban" name="iban" required></td>
+					</tr>
+					<tr>
+						<td><label for="bedrag">Bedrag in euro:</label></td>
+						<td><input type="number" id="bedrag" name="bedrag" min="0" step="0.01" required></td>
+					</tr>
+					<tr>
+						<td><label>Mededeling:</label></td>
+						<td><input type="text" id="mededeling" name="naar" required></td>
+					</tr>
+				</table>
+				<button onclick="history.back()" type="button" class="cancel-btn">Annuleren</button>
+				<button type="button" id="versturen" class="btn">Versturen</button>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<p class="footer">
+			<small>&copy; 2024 FuturoBank. All Rights Reserved.</small>
+		</p>
+	</footer>
+	<script src="js/overschrijven.js"></script>
+
+</body>
+
+</html>

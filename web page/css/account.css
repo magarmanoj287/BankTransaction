@@ -1,0 +1,100 @@
+/* Login Pagina Specifieke Stijlen */
+.login-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/* Button sectie */
+.button-section {
+    text-align: center; /* Centreren van de inhoud */
+    margin-top: 20px;
+}
+
+.links-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Knop stijlen */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #52c385;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #37b47e;
+}
+
+/* Link button */
+.link-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #52c385;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.link-btn:hover {
+    background-color: #37b47e;
+}
+
+.logout-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #52c385;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.logout-container{
+    float: right;
+    margin-right: 20px; 
+    position: absolute; 
+    top: 10px; 
+    right: 20px; 
+}
+.logout-btn:hover {
+    background-color: #37b47e;
+}
